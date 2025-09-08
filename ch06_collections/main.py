@@ -507,3 +507,14 @@ def count_even_odd2(numbers):
 
 count_even_odd2([1,2,3,4,5,6,7,8,9,10])
 
+
+def count_even_odd3(numbers):
+    evens = []
+    for number in numbers:
+        if number % 2 == 0:
+            evens.append(number)
+    print(f'짝수의 개수 : {len(evens)}')
+    print(f'홀수의 개수 : {len(numbers) - len(evens)}')
+
+count_even_odd3([1,2,3,4,5,6,7,8,9,10])
+

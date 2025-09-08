@@ -23,7 +23,7 @@ satang.show_info()
 Java / JS 등에서는 생성자 명은 클래스명과 동일하거나 constructor인데, 또 파이썬만 지혼자서 이상한걸로 생성자를 만듭니다. 
 '''
 
-class Candy:
+class Candy2:
     def __init__(self, shape, color):
         self.shape = shape
         self.color = color
@@ -33,16 +33,16 @@ class Candy:
 
 
 # 객체 생성 방식에서의 차이가 있습니다.
-stang = Candy('정육면체', '빨강')
-
-class Smaple:
+satang2 = Candy2('정육면체', '흰색')
+satang2.show_info()
+class Sample:
     #생성자 정의
-def __init__(self):
-    print('인스턴스가 생성되었습니다.')
+    def __init__(self):
+        print('인스턴스가 생성되었습니다.')
 
-      #소멸자 정의
-def __del__(self):
-    print('인스턴스가 소멸되었습니다.')
+          #소멸자 정의
+    def __del__(self):
+        print('인스턴스가 소멸되었습니다.')
 
 
 # 객체 생성
